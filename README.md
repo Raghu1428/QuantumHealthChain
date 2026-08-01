@@ -18,23 +18,25 @@ Traditional cryptographic algorithms (such as RSA and ECC) are vulnerable to dec
 
 ---
 
-## 📁 Repository Structure
-```text
-QuantumHealthChain/
-│
-├── __pycache__/                # Python compiled bytecode cache
-├── Healthcare/                 # Django project core configuration files (settings, wsgi, urls)
-├── HealthcareApp/              # Core application module (views, templates, static files)
-├── Batch-17 Document.pdf       # Comprehensive project report and technical documentation
-├── concept.txt                 # Project concept and abstract details
-├── db.sqlite3                  # Local database for user authentication and records
-├── execution.mp4               # Project demonstration and execution video
-├── Healthcare.json             # Compiled smart contract ABI configuration
-├── Healthcare.sol              # Smart contract source code for EHR management
-├── Kyber.py                    # Post-quantum Kyber key exchange implementation
-├── Major Project.pptx          # Technical presentation slides
-├── manage.py                   # Django command-line utility
-├── QuantumEncryption.py        # Quantum-resistant encryption and decryption utilities
-├── README.md                   # Project documentation and setup guide
-├── requirements.txt            # Python package dependencies
-└── runServer.bat               # Windows batch script for quick server startup
+## ✨ Key Features
+* **Secure File Upload and Storage:** Patients, doctors, and hospitals can securely upload and store medical records like prescriptions and diagnostic results, protecting them from unauthorized access or modification[cite: 3].
+* **Post-Quantum Encryption:** The system utilizes post-quantum cryptographic algorithms, specifically KYBER for key encapsulation and FALCON for signing, to encrypt patient files and protect them against both classical and future quantum computer attacks[cite: 3].
+* **Blockchain-Based Logging:** All data transactions—including file uploads, downloads, and access actions—are recorded on a decentralized, tamper-proof blockchain network, ensuring transparency and traceability[cite: 3].
+* **Secure File Sharing:** The platform enables the secure sharing of medical records between institutions and patients using encrypted session keys, preventing interception during transmission[cite: 3].
+* **Access Control and Authentication:** Role-based access control ensures that only verified users (doctors, patients, and administrators) are granted appropriate permissions to access sensitive medical information[cite: 3].
+* **Data Integrity and Privacy Protection:** The integration of blockchain and encryption ensures that patient data remains accurate and private, and any attempt to manipulate the stored information can be easily detected[cite: 3].
+
+## ⚙️ Core System Modules
+The primary workflows and operations managed by the system include:
+* User Registration[cite: 3]
+* User Login[cite: 3]
+* Appointment Booking[cite: 3]
+* Prescription Generation[cite: 3]
+* View Report[cite: 3]
+
+## 👥 Project Team
+This major project was developed at the Department of Information Technology, CMR Technical Campus[cite: 3]:
+* **A Sahithi** (227R1A1265)[cite: 3]
+* **K Raghunath** (227R1A1298)[cite: 3]
+* **B Nikhil** (227R1A1271)[cite: 3]
+* **Internal Guide:** Mr. M. Ramesh Babu, Assistant Professor[cite: 3]
