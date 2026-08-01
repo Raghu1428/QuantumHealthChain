@@ -19,24 +19,28 @@ Traditional cryptographic algorithms (such as RSA and ECC) are vulnerable to dec
 ---
 
 ## ✨ Key Features
-* **Secure File Upload and Storage:** Patients, doctors, and hospitals can securely upload and store medical records like prescriptions and diagnostic results, protecting them from unauthorized access or modification[cite: 3].
-* **Post-Quantum Encryption:** The system utilizes post-quantum cryptographic algorithms, specifically KYBER for key encapsulation and FALCON for signing, to encrypt patient files and protect them against both classical and future quantum computer attacks[cite: 3].
-* **Blockchain-Based Logging:** All data transactions—including file uploads, downloads, and access actions—are recorded on a decentralized, tamper-proof blockchain network, ensuring transparency and traceability[cite: 3].
-* **Secure File Sharing:** The platform enables the secure sharing of medical records between institutions and patients using encrypted session keys, preventing interception during transmission[cite: 3].
-* **Access Control and Authentication:** Role-based access control ensures that only verified users (doctors, patients, and administrators) are granted appropriate permissions to access sensitive medical information[cite: 3].
-* **Data Integrity and Privacy Protection:** The integration of blockchain and encryption ensures that patient data remains accurate and private, and any attempt to manipulate the stored information can be easily detected[cite: 3].
+* **Secure File Upload and Storage:** Patients, doctors, and hospitals can securely upload and store medical records like prescriptions and diagnostic results, protecting them from unauthorized access or modification.
+
+* **Post-Quantum Encryption:** The system utilizes post-quantum cryptographic algorithms, specifically KYBER for key encapsulation and FALCON for signing, to encrypt patient files and protect them against both classical and future quantum computer attacks.
+
+* **Blockchain-Based Logging:** All data transactions—including file uploads, downloads, and access actions—are recorded on a decentralized, tamper-proof blockchain network, ensuring transparency and traceability.
+
+* **Secure File Sharing:** The platform enables the secure sharing of medical records between institutions and patients using encrypted session keys, preventing interception during transmission.
+
+* **Access Control and Authentication:** Role-based access control ensures that only verified users (doctors, patients, and administrators) are granted appropriate permissions to access sensitive medical information.
+
+* **Data Integrity and Privacy Protection:** The integration of blockchain and encryption ensures that patient data remains accurate and private, and any attempt to manipulate the stored information can be easily detected.
 
 ## ⚙️ Core System Modules
 The primary workflows and operations managed by the system include:
-* User Registration[cite: 3]
-* User Login[cite: 3]
-* Appointment Booking[cite: 3]
-* Prescription Generation[cite: 3]
-* View Report[cite: 3]
+* User Registration
+* User Login
+* Appointment Booking
+* Prescription Generation
+* View Report
 
 ## 👥 Project Team
-This major project was developed at the Department of Information Technology, CMR Technical Campus[cite: 3]:
-* **A Sahithi** (227R1A1265)[cite: 3]
-* **K Raghunath** (227R1A1298)[cite: 3]
-* **B Nikhil** (227R1A1271)[cite: 3]
-* **Internal Guide:** Mr. M. Ramesh Babu, Assistant Professor[cite: 3]
+This major project was developed at the Department of Information Technology, CMR Technical Campus:
+* **A Sahithi** (227R1A1265)
+* **K Raghunath** (227R1A1298)
+* **B Nikhil** (227R1A1271)
